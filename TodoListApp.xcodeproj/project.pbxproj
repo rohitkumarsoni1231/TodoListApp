@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		AA77DCD12B14A1AB00C4CDC4 /* TodoListAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DCD02B14A1AB00C4CDC4 /* TodoListAppApp.swift */; };
-		AA77DCD32B14A1AB00C4CDC4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DCD22B14A1AB00C4CDC4 /* ContentView.swift */; };
 		AA77DCD52B14A1AC00C4CDC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA77DCD42B14A1AC00C4CDC4 /* Assets.xcassets */; };
 		AA77DCD82B14A1AC00C4CDC4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AA77DCD72B14A1AC00C4CDC4 /* Preview Assets.xcassets */; };
 		AA77DCE22B14A1AC00C4CDC4 /* TodoListAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DCE12B14A1AC00C4CDC4 /* TodoListAppTests.swift */; };
 		AA77DCEC2B14A1AC00C4CDC4 /* TodoListAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DCEB2B14A1AC00C4CDC4 /* TodoListAppUITests.swift */; };
 		AA77DCEE2B14A1AC00C4CDC4 /* TodoListAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DCED2B14A1AC00C4CDC4 /* TodoListAppUITestsLaunchTests.swift */; };
+		AA77DCFE2B14A1CA00C4CDC4 /* ListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DCFD2B14A1CA00C4CDC4 /* ListView.swift */; };
+		AA77DD002B14A1D300C4CDC4 /* ItemModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DCFF2B14A1D300C4CDC4 /* ItemModel.swift */; };
+		AA77DD022B14A33F00C4CDC4 /* ListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DD012B14A33F00C4CDC4 /* ListRowView.swift */; };
+		AA77DD042B14A54800C4CDC4 /* AddView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DD032B14A54800C4CDC4 /* AddView.swift */; };
+		AA77DD062B14B21800C4CDC4 /* ListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DD052B14B21800C4CDC4 /* ListViewModel.swift */; };
+		AA77DD602B190A4D00C4CDC4 /* NoItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AA77DD5F2B190A4D00C4CDC4 /* NoItemView.swift */; };
+		AA77DD642B19158200C4CDC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AA77DD632B19158200C4CDC4 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +42,6 @@
 /* Begin PBXFileReference section */
 		AA77DCCD2B14A1AB00C4CDC4 /* TodoListApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TodoListApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA77DCD02B14A1AB00C4CDC4 /* TodoListAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListAppApp.swift; sourceTree = "<group>"; };
-		AA77DCD22B14A1AB00C4CDC4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		AA77DCD42B14A1AC00C4CDC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AA77DCD72B14A1AC00C4CDC4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AA77DCDD2B14A1AC00C4CDC4 /* TodoListAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +49,13 @@
 		AA77DCE72B14A1AC00C4CDC4 /* TodoListAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TodoListAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA77DCEB2B14A1AC00C4CDC4 /* TodoListAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListAppUITests.swift; sourceTree = "<group>"; };
 		AA77DCED2B14A1AC00C4CDC4 /* TodoListAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodoListAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		AA77DCFD2B14A1CA00C4CDC4 /* ListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListView.swift; sourceTree = "<group>"; };
+		AA77DCFF2B14A1D300C4CDC4 /* ItemModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemModel.swift; sourceTree = "<group>"; };
+		AA77DD012B14A33F00C4CDC4 /* ListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRowView.swift; sourceTree = "<group>"; };
+		AA77DD032B14A54800C4CDC4 /* AddView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddView.swift; sourceTree = "<group>"; };
+		AA77DD052B14B21800C4CDC4 /* ListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListViewModel.swift; sourceTree = "<group>"; };
+		AA77DD5F2B190A4D00C4CDC4 /* NoItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoItemView.swift; sourceTree = "<group>"; };
+		AA77DD632B19158200C4CDC4 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,8 +106,10 @@
 		AA77DCCF2B14A1AB00C4CDC4 /* TodoListApp */ = {
 			isa = PBXGroup;
 			children = (
+				AA77DCFC2B14A1C000C4CDC4 /* ViewModel */,
+				AA77DCFB2B14A1BC00C4CDC4 /* View */,
+				AA77DCFA2B14A1B500C4CDC4 /* Model */,
 				AA77DCD02B14A1AB00C4CDC4 /* TodoListAppApp.swift */,
-				AA77DCD22B14A1AB00C4CDC4 /* ContentView.swift */,
 				AA77DCD42B14A1AC00C4CDC4 /* Assets.xcassets */,
 				AA77DCD62B14A1AC00C4CDC4 /* Preview Content */,
 			);
@@ -125,6 +139,34 @@
 				AA77DCED2B14A1AC00C4CDC4 /* TodoListAppUITestsLaunchTests.swift */,
 			);
 			path = TodoListAppUITests;
+			sourceTree = "<group>";
+		};
+		AA77DCFA2B14A1B500C4CDC4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				AA77DCFF2B14A1D300C4CDC4 /* ItemModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		AA77DCFB2B14A1BC00C4CDC4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				AA77DCFD2B14A1CA00C4CDC4 /* ListView.swift */,
+				AA77DD012B14A33F00C4CDC4 /* ListRowView.swift */,
+				AA77DD032B14A54800C4CDC4 /* AddView.swift */,
+				AA77DD5F2B190A4D00C4CDC4 /* NoItemView.swift */,
+				AA77DD632B19158200C4CDC4 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		AA77DCFC2B14A1C000C4CDC4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				AA77DD052B14B21800C4CDC4 /* ListViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,6 +273,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AA77DD642B19158200C4CDC4 /* LaunchScreen.storyboard in Resources */,
 				AA77DCD82B14A1AC00C4CDC4 /* Preview Assets.xcassets in Resources */,
 				AA77DCD52B14A1AC00C4CDC4 /* Assets.xcassets in Resources */,
 			);
@@ -257,8 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA77DCD32B14A1AB00C4CDC4 /* ContentView.swift in Sources */,
 				AA77DCD12B14A1AB00C4CDC4 /* TodoListAppApp.swift in Sources */,
+				AA77DD602B190A4D00C4CDC4 /* NoItemView.swift in Sources */,
+				AA77DCFE2B14A1CA00C4CDC4 /* ListView.swift in Sources */,
+				AA77DD062B14B21800C4CDC4 /* ListViewModel.swift in Sources */,
+				AA77DD042B14A54800C4CDC4 /* AddView.swift in Sources */,
+				AA77DD002B14A1D300C4CDC4 /* ItemModel.swift in Sources */,
+				AA77DD022B14A33F00C4CDC4 /* ListRowView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,9 +468,10 @@
 				DEVELOPMENT_TEAM = 8T9F5MQVRW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Omini;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -449,9 +498,10 @@
 				DEVELOPMENT_TEAM = 8T9F5MQVRW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Omini;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen.storyboard;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
